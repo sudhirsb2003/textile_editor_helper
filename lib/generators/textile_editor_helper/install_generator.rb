@@ -34,7 +34,7 @@ module TextileEditorHelper
         copy_file 'assets/javascripts/textile-editor-config.js', "#{js_destination}/textile-editor-config.js"
         copy_file 'assets/stylesheets/textile-editor.css', "#{css_destination}/textile-editor.css"
 
-        directory 'assets/images/textile-editor', 'app/assets/images/textile-editor'
+        directory 'assets/images/textile-editor'
 
         readme 'README' if behavior == :invoke
 
